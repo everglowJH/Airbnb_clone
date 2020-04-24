@@ -129,7 +129,7 @@ body{
 }
 
 .ch1_part3{
-    font-size: 10px;
+    font-size: 11px;
     border-right: solid 1px rgba(77, 77, 77, 0.205);
     height: 35px;
     width: 380px;
@@ -162,7 +162,7 @@ width: 400px;
     height: 10px;
     width: 200px;
     border: none;
-    font-size: 12px;
+    font-size: 14px;
     position: relative;
     left: -10px;
 
