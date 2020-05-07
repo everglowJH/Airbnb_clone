@@ -544,7 +544,7 @@ height: 670px;
 
 .feed1{
     display: flex;
-    margin-top:50px;
+    padding-top:50px;
     margin: auto;
     flex-direction: row;
     justify-content: space-between;
@@ -552,7 +552,7 @@ height: 670px;
     height: 165px;
     padding-bottom: 60px;
     padding-right: 550px;
-    padding-left: 250px
+    padding-left: 250px;
 }
 
 .left{
