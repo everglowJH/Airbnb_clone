@@ -1,5 +1,6 @@
 body {
-  font-family: "Gothic A1", sans-serif;
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto,
+    Helvetica Neue, sans-serif;
   margin: 0;
 }
 .ch1 {
@@ -521,62 +522,65 @@ body {
   padding-top: 50px;
   margin: auto;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: start;
   align-items: center;
   height: 165px;
   padding-bottom: 60px;
-  padding-right: 550px;
-  padding-left: 250px;
+  padding-right: 80px;
+  padding-left: 80px;
 }
 /* 되니  */
 .left {
   display: flex;
+  flex: 1;
   flex-direction: column;
+  align-items: flex-start;
 }
 
 .left p {
-  font-size: 20px;
+  font-size: 32px;
   font-weight: bold;
 }
 
 .left input {
   font-weight: bold;
-  font-size: 9px;
-  width: 60px;
-  height: 22.5px;
+  font-size: 14px;
+  padding: 7px 15px 7px 15px;
+  cursor: pointer;
+  text-align: center;
+  width: auto;
   background-color: white;
   border: solid 0.5px black;
-  border-radius: 4px;
+  border-radius: 8px;
 }
 
 .right {
-  font-size: 11.5px;
+  font-size: 18px;
+  flex: 1;
 }
 
 .feed2 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   background-color: #f7f7f7;
   height: 290px;
-
+  padding: 80px 80px 80px 80px;
   border-bottom: solid 0.5px #d3d3d3;
+  text-align: left;
 }
 
 .sub {
-  width: 1140px;
   text-align: left;
 }
 
 .sub p {
-  font-size: 14px;
+  font-size: 22px;
   font-weight: bold;
-  margin-bottom: 23px;
 }
 
 .aline {
-  font-size: 11px;
+  font-size: 18px;
   border-bottom: solid 0.5px #d3d3d3;
   padding-bottom: 8px;
   margin-right: 8px;
@@ -585,13 +589,13 @@ body {
 .para {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: start;
   font-size: 7px;
   width: 100%;
 }
 
 .space {
-  width: 285px;
+  width: 100%;
   margin-bottom: 32px;
 }
 
@@ -599,13 +603,13 @@ body {
   border-bottom: solid 0.5px #d3d3d3;
   padding-bottom: 10px;
   margin-right: 8px;
-  font-size: 10px;
+  font-size: 14px;
   color: gray;
 }
 
 .bold {
   font-weight: bold;
-  font-size: 10px;
+  font-size: 16px;
   margin-bottom: -10px;
 }
 
@@ -613,11 +617,9 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  height: 220px;
-  font-size: 7px;
+  font-size: 14px;
   border-bottom: solid 0.5px #d3d3d3;
-  margin-right: 90px;
-  margin-left: 90px;
+  padding: 48px 80px 48px 80px;
 }
 
 .space2 {
@@ -626,7 +628,7 @@ body {
 }
 
 .space2 p {
-  font-size: 9px;
+  font-size: 12px;
   padding-bottom: 5.5px;
 }
 
@@ -638,9 +640,9 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-right: 100px;
-  margin-left: 100px;
-  height: 40px;
+  padding: 24px 80px 24px 80px;
+  height: 20px;
+  font-size: 14px;
 }
 
 .copyright {
@@ -651,7 +653,6 @@ body {
 }
 
 .copyright p {
-  font-size: 9.5px;
   padding-right: 5px;
 }
 
