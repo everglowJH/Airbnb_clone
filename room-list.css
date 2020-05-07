@@ -175,6 +175,7 @@
 }
 .options {
   padding: 4px 8px 4px 0;
+  background-color: transparent;
 }
 .options-button {
   line-height: 18px;
@@ -187,6 +188,7 @@
   border-style: solid;
   text-align: center;
   cursor: pointer;
+  background-color: transparent;
 }
 .options-button:hover {
   border-color: #222222;
